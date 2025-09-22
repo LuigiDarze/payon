@@ -7,7 +7,7 @@
 .introducao-bg::before{
   content: '';
   position: absolute;
-  background-image: url('../img/pattern.svg');
+  background-image: url('../../img/pattern.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -32,6 +32,7 @@
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 80px;
+  padding-top: 32px;
 }
 
 .introducao h1 {
@@ -43,7 +44,7 @@
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
-  color: #daedd5;
+  color: var(--cor-100);
 }
 
 
@@ -59,14 +60,7 @@
   height: 120px;
 }
 
-@media (max-width: 1200px){
-  .introducao h1{
-    font-size: 48px;
-  }
-  .introducao p{
-    font-size: 18px;
-  }
-}
+
 
 @media (max-width: 800px){
   .introducao{
@@ -75,6 +69,7 @@
   }
   .introducao-conteudo{
     padding-bottom: 0px;
+    padding-top: 0px;
   }
   .introducao h1{
     font-size: 32px;

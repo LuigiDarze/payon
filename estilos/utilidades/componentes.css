@@ -8,6 +8,8 @@
   font-size: 18px;
   line-height: 1.33;
   font-weight: 600;
+  font-family: Poppins;
+  text-transform: uppercase;
 }
 
 .botao:hover {
