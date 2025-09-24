@@ -1,0 +1,61 @@
+.arcos-lista{
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.arcos-lista h2{
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.arcos-lista ul{
+  display: flex;
+  gap:40px;
+  padding: 0px 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+.arcos-lista li{
+  min-width: 280px;
+}
+/*Usando display block no 'a' para a navegação com TAB envolver todo o item*/
+.arcos-lista a{
+  display: block;
+}
+/*-------------------------------------------------------*/
+.arcos-lista img{
+  margin-bottom: 16px;
+}
+.arcos-lista h4{
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.arcos-lista h4::before{
+  content: "";
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: var(--cor-500);
+  transition: width 0.2s;
+}
+.arcos-lista a:hover h4::before{
+  width: 24px;
+}
+.arcos-lista span {
+  padding-left: 20px;
+}
+
+@media (max-width: 800px){
+  .arcos-lista {
+    padding-bottom: 60px;
+  }
+  .arcos-lista ul{
+    gap: 20px;
+  }
+}

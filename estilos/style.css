@@ -3,10 +3,12 @@
 @import "./utilidades/cores.css";
 @import "./global/header.css";
 
-/* Home */
-@import "./home/introducao.css";  
 /*Utilidades*/
 @import "./utilidades/componentes.css";
+/* Home */
+@import "./home/introducao.css";
+/*Arcos*/
+@import "./arcos/arcos-lista.css";
 
 body {
   margin: 0px;
@@ -15,21 +17,16 @@ body {
   background-color: var(--cor-c1);
   position: relative;
 }
-body::before{
-  content: '';
+body::before {
+  content: "";
   position: absolute;
-  background-image: url('../img/pattern.svg');
+  background-image: url("../img/pattern.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  top:0px;
+  top: 0px;
   left: 0px;
   opacity: 0.02;
   z-index: -1;
 }
-
-
-
-
-

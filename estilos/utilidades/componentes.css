@@ -5,19 +5,16 @@
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  font-size: 18px;
-  line-height: 1.33;
-  font-weight: 600;
-  font-family: Poppins;
-  text-transform: uppercase;
+  font: 500 1.125rem/1.5rem "Poppins";
+  letter-spacing: 0.015rem;
 }
 
 .botao:hover {
   background: linear-gradient(#188300, #0f4602);
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .botao {
     padding: 12px 16px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
