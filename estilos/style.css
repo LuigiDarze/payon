@@ -10,6 +10,7 @@
 @import "./home/artesanato.css";
 @import "./arcos/arcos-lista.css";
 @import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 body {
   margin: 0px;
@@ -22,8 +23,8 @@ body::before {
   content: "";
   position: absolute;
   background-image: url("../img/pattern.svg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-size: 2000px;
+  background-repeat: repeat-y;
   width: 100%;
   height: 100%;
   top: 0px;

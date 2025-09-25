@@ -61,14 +61,13 @@
   }
   .introducao h1 {
     margin-bottom: 16px;
+    margin-top: 40px;
   }
   .introducao img {
     height: 300px;
     width: 100%;
   }
-  .introducao-bg {
-    padding-top: 40px;
-  }
+  
   .introducao-img {
     margin-bottom: -60px;
   }
