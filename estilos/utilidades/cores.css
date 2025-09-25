@@ -8,6 +8,7 @@
   --cor-700: #104502;
   --cor-750: #0e3b02;
   --cor-800: #0b2e02;
+  --cor-900: #082700;
   --cor-cta: #22a900;
   --cor-branco: #ffffff;
   --cor-c1: #f7f7f7;
@@ -39,6 +40,9 @@
 }
 .cor-800 {
   color: var(--cor-800);
+}
+.cor-900{
+  color: var(--cor-900);
 }
 .cor-cta {
   color: var(--cor-cta);

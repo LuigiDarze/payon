@@ -3,7 +3,7 @@
 @import "./utilidades/cores.css";
 @import "./global/header.css";
 
-/*Utilidades*/
+/* Utilidades */
 @import "./utilidades/componentes.css";
 /* Home */
 @import "./home/introducao.css";
@@ -11,6 +11,8 @@
 @import "./arcos/arcos-lista.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+/* Flechas */
+@import "./flechas/flechas.css";
 
 body {
   margin: 0px;

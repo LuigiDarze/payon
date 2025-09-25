@@ -10,15 +10,24 @@
   display: inline-block;
   padding: 16px 32px;
   background: linear-gradient(#22a900, #155a03);
+  color: var(--cor-branco);
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   font: 500 1.125rem/1.5rem "Poppins";
   letter-spacing: 0.015rem;
 }
-
+.botao.secundario{
+  background: transparent;
+  outline: 2px solid #22a900;
+  outline-offset: -2px;
+}
 .botao:hover {
   background: linear-gradient(#188300, #0f4602);
+}
+.botao.secundario:hover{
+  outline: 0px;
+  outline-offset: 0px;
 }
 @media (max-width: 800px) {
   .botao {
