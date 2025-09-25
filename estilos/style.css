@@ -8,8 +8,8 @@
 /* Home */
 @import "./home/introducao.css";
 @import "./home/artesanato.css";
-/*Arcos*/
 @import "./arcos/arcos-lista.css";
+@import "./home/parceiros.css";
 
 body {
   margin: 0px;
