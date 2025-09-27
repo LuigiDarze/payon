@@ -24,24 +24,53 @@
 }
 .flechas-item a{
   grid-column: 1/-1;
-  justify-self: start;
 } 
 .flechas-item h3{
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 .flechas-item span{
   grid-column: 2;
   display: block;
   text-align: right;
 }
+#flechas-escolha{
+  grid-column: 1;
+  text-align: left;
+  display: inline;
+  position: absolute;
+  bottom: 0px;
+}
 .flechas-item ul{
   grid-column: 1/-1;
   margin-bottom: 32px;
+  position: relative;
 }
 .flechas-item li{
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.flechas-item li:nth-last-child{
+  margin-bottom: 0px;
 }
 .flechas-item li::before{
   content: "";
   display: block;
+}
+.flechas-item li::before{
+  content: "";
+  width: 13px;
+  height: 9px;
+  background-image: url("../../img/icones/check.svg");
+  display: inline-block;
+  position: absolute;
+  left: -21px;
+}
+
+@media(max-width:800px){
+  .flechas{
+    grid-template-columns: 1fr;
+  }
 }

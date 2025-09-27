@@ -16,6 +16,7 @@
   text-transform: uppercase;
   font: 500 1.125rem/1.5rem "Poppins";
   letter-spacing: 0.015rem;
+  max-width: max-content;
 }
 .botao.secundario{
   background: transparent;
